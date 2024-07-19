@@ -1,0 +1,10 @@
+# Documentation
+*.md
+
+# Build files
+Dockerfile
+Makefile
+
+# Ignore files
+.gitignore
+.dockerignore
