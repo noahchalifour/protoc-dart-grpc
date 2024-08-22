@@ -26,5 +26,5 @@ To generate the go files, run the following command:
 docker run -it --rm \
     -v $(pwd)/proto:/proto \
     -v $(pwd)/build:/build \
-    protoc-dart:latest /proto /build
+    protoc-dart-grpc:latest /proto /build
 ```
